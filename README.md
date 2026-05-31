@@ -27,14 +27,13 @@ A full write-up of the project is included as a PDF/PPTX presentation:
 
 ```
 Equipment_Launcher/
-├── ArduinoTurretControl/        # C++ code for Arduino motor/servo control
-├── Component Information/       # Hardware specs, wiring diagrams, and part details
+├── ArduinoTurretControl/        # Arduino sketch for servo/turret control
+├── Component Information/       # 3D models, circuit diagrams, and servo datasheet
 ├── Examples and Test/           # Test scripts for individual subsystems
-├── Haar Cascade Classifiers/    # XML classifiers used for OpenCV face/object detection
-├── Pictures/                    # Build photos and documentation images
-├── testFaces/                   # Sample images used for testing the vision pipeline
-├── Automatic Fire_ The Creation of the Doom Slayer's Shoulder Cannon.pdf
-└── Automatic Fire_ The Creation of the Doom Slayer's Shoulder Cannon.pptx
+├── Haar Cascade Classifiers/    # OpenCV XML classifiers for face/object detection
+├── Pictures/                    # Build photos and renders
+├── ReportsAndPresentation/      # Project write-ups and presentations
+└── testFaces/                   # Sample images for vision pipeline testing
 ```
 
 ---
@@ -80,10 +79,11 @@ Equipment_Launcher/
 
 ## 📄 Documentation
 
-The full project write-up — covering design decisions, component selection, wiring, and software architecture — is available in the repo root:
+The full project write-up — covering design decisions, component selection, wiring, and software architecture — is in `ReportsAndPresentation/`:
 
-- [`Automatic Fire_ The Creation of the Doom Slayer's Shoulder Cannon.pdf`](./Automatic%20Fire_%20The%20Creation%20of%20the%20Doom%20Slayer%E2%80%99s%20Shoulder%20Cannon.pdf)
-- [`Automatic Fire_ The Creation of the Doom Slayer's Shoulder Cannon.pptx`](./Automatic%20Fire_%20The%20Creation%20of%20the%20Doom%20Slayer%E2%80%99s%20Shoulder%20Cannon.pptx)
+- [`Automatic Fire: The Creation of the Doom Slayer's Shoulder Cannon (PDF)`](./ReportsAndPresentation/Automatic%20Fire_%20The%20Creation%20of%20the%20Doom%20Slayer%E2%80%99s%20Shoulder%20Cannon.pdf)
+- [`Automatic Fire: The Creation of the Doom Slayer's Shoulder Cannon (PPTX)`](./ReportsAndPresentation/Automatic%20Fire_%20The%20Creation%20of%20the%20Doom%20Slayer%E2%80%99s%20Shoulder%20Cannon.pptx)
+- [`The Creation of the Doom Slayer's Shoulder Cannon (PDF)`](./ReportsAndPresentation/The%20Creation%20of%20the%20Doom%20Slayer%E2%80%99s%20Shoulder%20Cannon.pdf)
 
 ---
 
